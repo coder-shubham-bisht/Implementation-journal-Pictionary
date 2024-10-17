@@ -178,7 +178,7 @@ we have to add  `&& isGuessed`
 
 In the start.html file, we can find a button tag with content Guess!.
 We have to add a new attibute and value in it like below.  
-`v-bind:class="{disable:currentPlayer}"`
+`v-bind:class="{disable:!currentPlayer}"`
 
 ### Before
 
@@ -187,3 +187,29 @@ We have to add a new attibute and value in it like below.
 ### After
 
 ![](images/guessButtonAfter.png)
+
+
+## Step-14 
+
+Open the terminal and make sure u are in the Pictionary folder in terminal
+
+Now run the command --> `npm install`
+
+![](images/npminstall.png)
+
+after you get the above ouput
+Make sure you have installed nodejs in your system.
+Now run the command --> `node index.js`
+
+![](images/noderun.png)
+
+## Step-15
+
+Open your browser and type the url `http://localhost:1234/` in the address bar.  
+Now Homepage of Pictionary appliation appears.  
+Game requires atleast 3 user to play the game.  
+we can open 2 more new tabs with  url `http://localhost:1234/`  in their address bar to play the game.
+
+![](images/Homepage.png)
+
+
