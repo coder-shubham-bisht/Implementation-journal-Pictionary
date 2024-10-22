@@ -1,4 +1,4 @@
-# Implementation-journal-Pictionary(Removing Bugs and UI Improvement)
+# Implementation-journal-Pictionary(Removing Bugs)
 
 ## Prequisite
 1. git installed on your operating system.
